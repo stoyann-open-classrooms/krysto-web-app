@@ -1,0 +1,78 @@
+@import '../../SASS/reset';
+@import '../../SASS/variables';
+
+footer {
+    position: sticky;
+    height: 88vh;
+    text-align: center;
+    padding: 1rem;
+    background-color: $dark;
+    color: white;
+ 
+  }
+  
+
+  .list-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+    .list {
+      text-align: left;
+      h3 {
+        font-size: 0.9rem;
+      }
+      ul {
+        li{
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+
+  .list-link{
+    transition: all 0.4s ease-out;
+    &:hover{
+      color: $primary;
+    }
+  }
+
+
+  .confiance {
+    margin: 0 0 3rem 0;
+  }
+  .social {
+  margin: 2rem 0 0 0;
+  }
+  .confiance-container {
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+  .confiance-item  {
+    height: 12rem;
+    width: 12rem;
+    background-color: $primary;
+    margin: 0 1rem;
+    border-radius: $radius;
+    padding: 1rem;
+  }
+  .social-item  {
+   
+   font-size: 2rem;
+    margin: 0 1rem;
+  transition: all  0.4s ease-out;
+    padding: 1rem;
+    cursor: pointer;
+    &:hover {
+      color: $primary;
+    }
+  }

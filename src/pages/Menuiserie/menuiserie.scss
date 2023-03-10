@@ -1,0 +1,18 @@
+@import "../../SASS/reset";
+@import "../../SASS/variables";
+
+
+
+.icon-beams-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+   
+}
+
+.icon-beam {
+    img{
+        height: 10rem;
+    }
+}
